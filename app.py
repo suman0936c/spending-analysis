@@ -20,12 +20,10 @@ def load_expenses(uploaded_file=None) -> pd.DataFrame:
             data = pd.read_csv(BytesIO(raw))
         else:
             data = pd.read_excel(BytesIO(raw), sheet_name="data")
-    data.columns = data.columns.str.strip().str.upper()
-    data = data.rename(columns={
-        "DATE": "expense_date", "DAY": "day_name", "DAY_TYPE": "day_type",
-        "CATEGORY": "category", "DESCRIPTION": "description", "AMOUNT": "amount",
-        "PAYMENT_MODE": "payment_mode",
-    })
+    # Supports both the original Excel headers (DATE, DAY_TYPE, ...) and
+    # the repository CSV headers (expense_date, day_type, ...).
+    data.columns = data.columns.str.strip().str.lower().str.replace(" ", "_", regex=False)
+    data = data.rename(columns={"date": "expense_date", "day": "day_name"})
     data["expense_date"] = pd.to_datetime(data["expense_date"])
     required = {"expense_date", "day_name", "day_type", "category", "description", "amount", "payment_mode"}
     missing = required.difference(data.columns)
