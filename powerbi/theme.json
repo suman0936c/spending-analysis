@@ -1,0 +1,17 @@
+{
+  "name": "Expense Analytics - Modern Indigo",
+  "dataColors": ["#4F6DF5", "#8B5CF6", "#14B8A6", "#F59E0B", "#EF4444", "#64748B"],
+  "background": "#F6F8FC",
+  "foreground": "#152238",
+  "tableAccent": "#4F6DF5",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{"show": true, "fontColor": {"solid": {"color": "#152238"}}, "fontSize": 13, "fontFamily": "Segoe UI Semibold"}],
+        "background": [{"show": true, "color": {"solid": {"color": "#FFFFFF"}}, "transparency": 0}],
+        "border": [{"show": false}],
+        "visualHeader": [{"show": false}]
+      }
+    }
+  }
+}

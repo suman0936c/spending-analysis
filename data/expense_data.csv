@@ -1,0 +1,120 @@
+expense_date,day_name,day_type,category,description,amount,payment_mode
+2025-12-01,Thursday,weekday,Food,Lunch,85,UPI
+2025-12-01,Thursday,weekday,Food,Dinner,90,UPI
+2025-12-01,Thursday,weekday,Food,Snacks,40,Cash
+2025-12-01,Thursday,weekday,Travel,Bus fare,40,Cash
+2025-12-02,Friday,weekday,Food,Lunch,80,UPI
+2025-12-02,Friday,weekday,Food,Dinner,95,UPI
+2025-12-02,Friday,weekday,Food,Snacks,35,Cash
+2025-12-02,Friday,weekday,Travel,Bus fare,40,Cash
+2025-12-03,Saturday,weekend,Food,Lunch,90,UPI
+2025-12-03,Saturday,weekend,Food,Dinner,100,UPI
+2025-12-03,Saturday,weekend,Travel,Auto fare,90,Cash
+2025-12-03,Saturday,weekend,Entertainment,Movie ticket,250,UPI
+2025-12-04,Sunday,weekend,Food,Lunch,95,UPI
+2025-12-04,Sunday,weekend,Food,Dinner,100,UPI
+2025-12-04,Sunday,weekend,Travel,Cab ride,200,UPI
+2025-12-05,Monday,weekday,Food,Lunch,75,UPI
+2025-12-05,Monday,weekday,Food,Dinner,85,UPI
+2025-12-05,Monday,weekday,Food,Snacks,30,Cash
+2025-12-05,Monday,weekday,Travel,Bus fare,40,Cash
+2025-12-05,Monday,weekday,Academics,Books purchase,450,UPI
+2025-12-06,Tuesday,weekday,Food,Lunch,80,UPI
+2025-12-06,Tuesday,weekday,Food,Dinner,90,UPI
+2025-12-06,Tuesday,weekday,Food,Snacks,35,Cash
+2025-12-06,Tuesday,weekday,Travel,Bus fare,40,Cash
+2025-12-07,Wednesday,weekday,Food,Lunch,85,UPI
+2025-12-07,Wednesday,weekday,Food,Dinner,95,UPI
+2025-12-07,Wednesday,weekday,Food,Snacks,40,Cash
+2025-12-07,Wednesday,weekday,Travel,Metro recharge,300,UPI
+2025-12-08,Thursday,weekday,Food,Lunch,90,UPI
+2025-12-08,Thursday,weekday,Food,Dinner,100,UPI
+2025-12-08,Thursday,weekday,Food,Snacks,45,Cash
+2025-12-08,Thursday,weekday,Travel,Bus fare,40,Cash
+2025-12-09,Friday,weekday,Food,Lunch,80,UPI
+2025-12-09,Friday,weekday,Food,Dinner,90,UPI
+2025-12-09,Friday,weekday,Food,Snacks,35,Cash
+2025-12-09,Friday,weekday,Travel,Bus fare,40,Cash
+2025-12-09,Friday,weekday,Shopping,Clothes purchase,1200,UPI
+2025-12-10,Saturday,weekend,Food,Lunch,95,UPI
+2025-12-10,Saturday,weekend,Food,Dinner,100,UPI
+2025-12-10,Saturday,weekend,Travel,Auto fare,100,Cash
+2025-12-11,Sunday,weekend,Food,Lunch,90,UPI
+2025-12-11,Sunday,weekend,Food,Dinner,95,UPI
+2025-12-11,Sunday,weekend,Travel,Cab ride,210,UPI
+2025-12-12,Monday,weekday,Food,Lunch,75,UPI
+2025-12-12,Monday,weekday,Food,Dinner,85,UPI
+2025-12-12,Monday,weekday,Food,Snacks,30,Cash
+2025-12-12,Monday,weekday,Travel,Bus fare,40,Cash
+2025-12-13,Tuesday,weekday,Food,Lunch,80,UPI
+2025-12-13,Tuesday,weekday,Food,Dinner,90,UPI
+2025-12-13,Tuesday,weekday,Food,Snacks,35,Cash
+2025-12-13,Tuesday,weekday,Travel,Bus fare,40,Cash
+2025-12-14,Wednesday,weekday,Food,Lunch,85,UPI
+2025-12-14,Wednesday,weekday,Food,Dinner,95,UPI
+2025-12-14,Wednesday,weekday,Food,Snacks,40,Cash
+2025-12-14,Wednesday,weekday,Travel,Metro recharge,300,UPI
+2025-12-15,Thursday,weekday,Food,Lunch,90,UPI
+2025-12-15,Thursday,weekday,Food,Dinner,100,UPI
+2025-12-15,Thursday,weekday,Food,Snacks,45,Cash
+2025-12-15,Thursday,weekday,Travel,Bus fare,40,Cash
+2025-12-15,Thursday,weekday,Academics,Online course fee,999,UPI
+2025-12-16,Friday,weekday,Food,Lunch,80,UPI
+2025-12-16,Friday,weekday,Food,Dinner,90,UPI
+2025-12-16,Friday,weekday,Food,Snacks,35,Cash
+2025-12-16,Friday,weekday,Travel,Bus fare,40,Cash
+2025-12-17,Saturday,weekend,Food,Lunch,95,UPI
+2025-12-17,Saturday,weekend,Food,Dinner,100,UPI
+2025-12-17,Saturday,weekend,Travel,Auto fare,100,Cash
+2025-12-17,Saturday,weekend,Entertainment,Movie night,300,UPI
+2025-12-18,Sunday,weekend,Food,Lunch,90,UPI
+2025-12-18,Sunday,weekend,Food,Dinner,95,UPI
+2025-12-18,Sunday,weekend,Travel,Cab ride,210,UPI
+2025-12-19,Monday,weekday,Food,Lunch,75,UPI
+2025-12-19,Monday,weekday,Food,Dinner,85,UPI
+2025-12-19,Monday,weekday,Food,Snacks,30,Cash
+2025-12-19,Monday,weekday,Travel,Bus fare,40,Cash
+2025-12-20,Tuesday,weekday,Food,Lunch,80,UPI
+2025-12-20,Tuesday,weekday,Food,Dinner,90,UPI
+2025-12-20,Tuesday,weekday,Food,Snacks,35,Cash
+2025-12-20,Tuesday,weekday,Travel,Bus fare,40,Cash
+2025-12-20,Tuesday,weekday,Others,Mobile recharge,239,UPI
+2025-12-21,Wednesday,weekday,Food,Lunch,85,UPI
+2025-12-21,Wednesday,weekday,Food,Dinner,95,UPI
+2025-12-21,Wednesday,weekday,Food,Snacks,40,Cash
+2025-12-21,Wednesday,weekday,Travel,Metro recharge,300,UPI
+2025-12-22,Thursday,weekday,Food,Lunch,90,UPI
+2025-12-22,Thursday,weekday,Food,Dinner,100,UPI
+2025-12-22,Thursday,weekday,Food,Snacks,45,Cash
+2025-12-22,Thursday,weekday,Travel,Bus fare,40,Cash
+2025-12-23,Friday,weekday,Food,Lunch,80,UPI
+2025-12-23,Friday,weekday,Food,Dinner,90,UPI
+2025-12-23,Friday,weekday,Food,Snacks,35,Cash
+2025-12-23,Friday,weekday,Travel,Bus fare,40,Cash
+2025-12-24,Saturday,weekend,Food,Lunch,95,UPI
+2025-12-24,Saturday,weekend,Food,Dinner,100,UPI
+2025-12-24,Saturday,weekend,Travel,Auto fare,95,Cash
+2025-12-24,Saturday,weekend,Shopping,Shoes purchase,1800,UPI
+2025-12-25,Sunday,weekend,Food,Lunch,90,UPI
+2025-12-25,Sunday,weekend,Food,Dinner,95,UPI
+2025-12-25,Sunday,weekend,Travel,Cab ride,200,UPI
+2025-12-26,Monday,weekday,Food,Lunch,75,UPI
+2025-12-26,Monday,weekday,Food,Dinner,85,UPI
+2025-12-26,Monday,weekday,Food,Snacks,30,Cash
+2025-12-26,Monday,weekday,Travel,Bus fare,40,Cash
+2025-12-27,Tuesday,weekday,Food,Lunch,80,UPI
+2025-12-27,Tuesday,weekday,Food,Dinner,90,UPI
+2025-12-27,Tuesday,weekday,Food,Snacks,35,Cash
+2025-12-27,Tuesday,weekday,Travel,Bus fare,40,Cash
+2025-12-28,Wednesday,weekday,Food,Lunch,85,UPI
+2025-12-28,Wednesday,weekday,Food,Dinner,95,UPI
+2025-12-28,Wednesday,weekday,Food,Snacks,40,Cash
+2025-12-28,Wednesday,weekday,Travel,Metro recharge,300,UPI
+2025-12-29,Thursday,weekday,Food,Lunch,90,UPI
+2025-12-29,Thursday,weekday,Food,Dinner,100,UPI
+2025-12-29,Thursday,weekday,Food,Snacks,45,Cash
+2025-12-29,Thursday,weekday,Travel,Bus fare,40,Cash
+2025-12-30,Friday,weekday,Food,Lunch,80,UPI
+2025-12-30,Friday,weekday,Food,Dinner,90,UPI
+2025-12-30,Friday,weekday,Food,Snacks,35,Cash
+2025-12-30,Friday,weekday,Travel,Bus fare,40,Cash

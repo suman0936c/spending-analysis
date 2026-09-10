@@ -1,0 +1,49 @@
+-- Table name expected by these measures: Expenses
+
+Total Spend =
+SUM(Expenses[amount])
+
+Transaction Count =
+COUNTROWS(Expenses)
+
+Active Days =
+DISTINCTCOUNT(Expenses[expense_date])
+
+Average Daily Spend =
+DIVIDE([Total Spend], [Active Days])
+
+Top Category =
+VAR TopRow =
+    TOPN(1, VALUES(Expenses[category]), [Total Spend], DESC, Expenses[category], ASC)
+RETURN
+    CONCATENATEX(TopRow, Expenses[category], ", ")
+
+Top Category Spend =
+MAXX(
+    TOPN(1, VALUES(Expenses[category]), [Total Spend], DESC, Expenses[category], ASC),
+    [Total Spend]
+)
+
+Highest Daily Spend =
+MAXX(
+    VALUES(Expenses[expense_date]),
+    CALCULATE([Total Spend])
+)
+
+Highest Spend Date =
+VAR TopDay =
+    TOPN(1, VALUES(Expenses[expense_date]), [Total Spend], DESC, Expenses[expense_date], ASC)
+RETURN
+    FORMAT(MAXX(TopDay, Expenses[expense_date]), "dd MMM yyyy")
+
+Weekend Spend =
+CALCULATE([Total Spend], Expenses[day_type] = "weekend")
+
+Weekday Spend =
+CALCULATE([Total Spend], Expenses[day_type] = "weekday")
+
+Weekend Spend Share =
+DIVIDE([Weekend Spend], [Total Spend])
+
+Category Spend Share =
+DIVIDE([Total Spend], CALCULATE([Total Spend], ALL(Expenses[category])))
