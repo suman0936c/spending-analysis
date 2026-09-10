@@ -1,0 +1,32 @@
+expense_date,day_name,day_type,category,description,amount,payment_mode
+2026-01-03,Saturday,weekend,Food,Groceries,860,UPI
+2026-01-03,Saturday,weekend,Travel,Metro recharge,300,UPI
+2026-01-04,Sunday,weekend,Entertainment,Movie tickets,520,Card
+2026-01-05,Monday,weekday,Food,Lunch,180,UPI
+2026-01-05,Monday,weekday,Travel,Cab fare,240,UPI
+2026-01-06,Tuesday,weekday,Utilities,Mobile recharge,499,UPI
+2026-01-07,Wednesday,weekday,Food,Dinner,260,Cash
+2026-01-08,Thursday,weekday,Shopping,Household supplies,720,Card
+2026-01-09,Friday,weekday,Food,Coffee and snacks,150,UPI
+2026-01-10,Saturday,weekend,Travel,Weekend train,680,UPI
+2026-01-10,Saturday,weekend,Entertainment,Streaming subscription,299,UPI
+2026-01-11,Sunday,weekend,Food,Restaurant meal,940,Card
+2026-01-12,Monday,weekday,Academics,Online course,1299,UPI
+2026-01-13,Tuesday,weekday,Food,Lunch,190,UPI
+2026-01-14,Wednesday,weekday,Travel,Fuel,1100,Card
+2026-01-15,Thursday,weekday,Shopping,Clothing,1450,UPI
+2026-01-16,Friday,weekday,Food,Dinner,280,Cash
+2026-01-17,Saturday,weekend,Others,Gift,600,UPI
+2026-01-18,Sunday,weekend,Food,Groceries,780,UPI
+2026-01-19,Monday,weekday,Utilities,Internet bill,799,UPI
+2026-01-20,Tuesday,weekday,Travel,Cab fare,310,UPI
+2026-01-21,Wednesday,weekday,Food,Lunch,210,UPI
+2026-01-22,Thursday,weekday,Academics,Books,675,Card
+2026-01-23,Friday,weekday,Entertainment,Concert ticket,1800,Card
+2026-01-24,Saturday,weekend,Food,Restaurant meal,1050,UPI
+2026-01-25,Sunday,weekend,Travel,Bus fare,95,Cash
+2026-01-26,Monday,weekday,Food,Dinner,245,UPI
+2026-01-27,Tuesday,weekday,Shopping,Personal care,430,UPI
+2026-01-28,Wednesday,weekday,Food,Snacks,110,Cash
+2026-01-29,Thursday,weekday,Travel,Metro fare,80,UPI
+2026-01-30,Friday,weekday,Food,Lunch,200,UPI

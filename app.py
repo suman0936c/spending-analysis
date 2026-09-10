@@ -41,7 +41,34 @@ st.title("Personal Expense Analytics")
 st.caption("Interactive portfolio project | December 2025 transaction data | Amounts in INR")
 
 uploaded_file = st.sidebar.file_uploader("Upload expense data", type=["xlsx", "csv"], help="Upload the original expense.xlsx file or an exported CSV.")
+with st.sidebar.expander("Data upload guide"):
+    st.write("For Excel, use a worksheet named **data**. Include these columns in row 1:")
+    st.dataframe(
+        pd.DataFrame(
+            {
+                "Column": ["DATE", "DAY", "DAY_TYPE", "CATEGORY", "DESCRIPTION", "AMOUNT", "PAYMENT_MODE"],
+                "Example": ["2026-01-03", "Saturday", "weekend", "Food", "Groceries", "860", "UPI"],
+            }
+        ),
+        hide_index=True,
+        use_container_width=True,
+    )
+    st.caption("Use valid dates, positive amounts, and only `weekday` or `weekend` for DAY_TYPE.")
+    template = pd.DataFrame(
+        [{"DATE": "2026-01-03", "DAY": "Saturday", "DAY_TYPE": "weekend", "CATEGORY": "Food", "DESCRIPTION": "Groceries", "AMOUNT": 860, "PAYMENT_MODE": "UPI"}]
+    )
+    st.download_button(
+        "Download blank CSV template",
+        data=template.to_csv(index=False).encode("utf-8"),
+        file_name="expense_upload_template.csv",
+        mime="text/csv",
+    )
 expenses = load_expenses(uploaded_file)
+st.caption(
+    f"Loaded **{len(expenses):,} transactions** from **{expenses['expense_date'].min():%d %b %Y}** "
+    f"to **{expenses['expense_date'].max():%d %b %Y}**. "
+    f"Use the filters to explore the data."
+)
 with st.sidebar:
     st.header("Filters")
     selected_dates = st.date_input(
