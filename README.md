@@ -68,11 +68,7 @@ The dashboard opens at `http://localhost:8501` and supports date, category, paym
 
 ## Deploy to the web
 
-### Streamlit Community Cloud
-
-1. Push this project folder to a new GitHub repository.
-2. In Streamlit Community Cloud, create an app from that repository.
-3. Set the main file path to `app.py`, then deploy.
+https://expenseanalysis.streamlit.app/
 
 ### Container host
 
